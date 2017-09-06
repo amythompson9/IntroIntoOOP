@@ -1,1 +1,6 @@
 c:\users\wecancodeit\documents\visual studio 2015\Projects\IntroIntoOOP\IntroIntoOOP\bin\Debug\IntroIntoOOP.exe.config
+c:\users\wecancodeit\documents\visual studio 2015\Projects\IntroIntoOOP\IntroIntoOOP\bin\Debug\IntroIntoOOP.exe
+c:\users\wecancodeit\documents\visual studio 2015\Projects\IntroIntoOOP\IntroIntoOOP\bin\Debug\IntroIntoOOP.pdb
+c:\users\wecancodeit\documents\visual studio 2015\Projects\IntroIntoOOP\IntroIntoOOP\obj\Debug\IntroIntoOOP.csprojResolveAssemblyReference.cache
+c:\users\wecancodeit\documents\visual studio 2015\Projects\IntroIntoOOP\IntroIntoOOP\obj\Debug\IntroIntoOOP.exe
+c:\users\wecancodeit\documents\visual studio 2015\Projects\IntroIntoOOP\IntroIntoOOP\obj\Debug\IntroIntoOOP.pdb
