@@ -29,9 +29,36 @@ namespace IntroIntoOOP
             //cat1.FurColor = "red";
             //Console.WriteLine(cat1.FurColor);
 
-            //Dog dog1 = new Dog();
-            //dog1.Cuddle();
-            
+            Superhero goodGuy = new Superhero("Super Good Guy");
+            goodGuy.FightEvil();
+            goodGuy.FightEvil();
+            goodGuy.FightEvil();
+            goodGuy.FightEvil();
+            goodGuy.FightEvil();
+            goodGuy.FightEvil();
+            goodGuy.Sleep();
+            goodGuy.Sleep();
+            goodGuy.Sleep();
+            goodGuy.Sleep();
+            goodGuy.FightEvil();
+            goodGuy.FightEvil();
+            goodGuy.NextLevel();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         }
     }
 }

@@ -23,18 +23,43 @@ namespace IntroIntoOOP
         private int heighth;
         private int runningSpeed;
         private int weight;
-
-        public Dog(int hairLength, int heighth, int runningSpeed, int weight)
+        //default constructor
+        public Dog()
         {
-            this.hairLength = hairLength;
+            this.hairLength = 3;
+            this.heighth = 3;
+            this.runningSpeed = 80;
+            this.weight = 220;
+        }
+        //methodoverloading
+        //polymorphism
+        public Dog(int weight, int heighth, int runningSpeed, int hairLength)
+        {
+            this.weight = weight;
             this.heighth = heighth;
             this.runningSpeed = runningSpeed;
-            this.weight = weight;
+            this.hairLength = hairLength;
         }
-        public int HairLength { get; set; }
-        public int Heighth { get; set; }
-        public int RunningSpeed { get; set; }
-        public int Weight { get; set; }
+        public int HairLength
+        {
+            get { return this.hairLength; }
+            set { this.hairLength = value; }
+        }
+        public int Heighth
+        {
+            get { return this.heighth; }
+            set { this.heighth = value; }
+        }
+        public int RunningSpeed
+        {
+            get { return this.runningSpeed; }
+            set { this.runningSpeed = value; }
+        }
+        public int Weight
+        {
+            get { return this.weight; }
+            set { this.weight = value; }
+        }
         public void Run()
         {
             Console.WriteLine("I have so much energy I can run forever!!");
@@ -47,9 +72,9 @@ namespace IntroIntoOOP
         {
             Console.WriteLine("I have to go outside.");
         }
-        public void Cuddle()
+        public void Cuddle(string name)
         {
-            Console.WriteLine("Please pet my head.");
+            Console.WriteLine("Please pet my head, {0}", name);
         }
     }
 }
